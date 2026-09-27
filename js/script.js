@@ -1,11 +1,11 @@
-// Husk fra dag 2: skriv "use strict" herunder
-
+// Husk fra dag 2: skriv "use strict" herunde
+"use strict"
 
 // Eksempel: vi henter ordet "word" ved hjælp af dets id-attribut
 const getWordElem = document.getElementById("word");
 
 // Skriv selv: hent knappen "zoomBtn" på samme måde, ved hjælp af dens id. Variablen skal hedde getZoomBtn
-
+const getZoomBtn = document.getElementById ("zoombTn");
 
 // Eksempel: vi lytter efter klik på knappen og kører en anonym function, når der klikkes - ligesom i billedskift-opgaven
 getZoomBtn.addEventListener("click", function() {
@@ -21,5 +21,19 @@ getZoomBtn.addEventListener("click", function() {
     // Ellers:
     //   - sæt getWordElem.style.fontSize til "3rem"
     //   - sæt this.textContent til "Zoom ind"
+
+    if(this.textContent ==="zoom ind") {
+
+        getWordElem.style.fontSize = "6rem";
+
+        this.textContent = "zoom ud";
+
+    } else {
+
+        getWordElem.style.fontSize = "3rem";
+
+        this.textContent = "zoom ind"; 
+
+    }
 
 });

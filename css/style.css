@@ -25,7 +25,7 @@ body {
 #word {
     margin: 4rem 0;
     padding: 2rem 0;
-    font-size: 3rem;
+    font-size: 4rem;
     color: darkcyan;
  
     /* Reserverer plads til max skriftstørrelse (6rem) + padding (4rem), så #word ikke
@@ -44,7 +44,7 @@ body {
      hvordan det påvirker knappens udseende, når du klikker på den. */
   width: 10rem;
   height: 3rem;
-  background-color: darkgoldenrod;
+  background-color: rgb(234, 201, 118);
   font-size: 1.7rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
